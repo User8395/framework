@@ -5,7 +5,7 @@ project(maliit-framework VERSION 2.3.0)
 # Build options
 
 option(enable-docs "Build documentation" ON)
-option(enable-tests "Build tests" ON)
+option(enable-tests "Build tests" OFF)
 option(install-tests "Install unit tests" OFF)
 option(enable-examples "Build examples" OFF)
 
